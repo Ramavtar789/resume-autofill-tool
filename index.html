@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Resume Autofill Tool</title>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.379/pdf.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.379/pdf.min.js" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/docxtemplater/3.38.1/docxtemplater.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://unpkg.com/tesseract.js@v2.1.0/dist/tesseract.min.js" defer></script>
   <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://unpkg.com/tesseract.js@v2.1.0/dist/tesseract.min.js"></script> <!-- Added for OCR -->
   <style>
     .drop-zone { border: 2px dashed #ccc; padding: 20px; text-align: center; }
     .spinner { border: 4px solid #f3f3f3; border-top: 4px solid #3498db; border-radius: 50%; width: 20px; height: 20px; animation: spin 1s linear infinite; margin: 0 auto; }
@@ -83,6 +83,6 @@
   </div>
   <div id="preview" class="mt-4 p-4 bg-white rounded shadow"></div>
 
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </body>
-  </html>
+</html>
